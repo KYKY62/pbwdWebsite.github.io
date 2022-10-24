@@ -5,6 +5,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    background-color: #2c292f;
 }
 
 .wrapper {
@@ -30,25 +31,25 @@ body {
     color: #ffffff;
 }
 
-.nav {
+.top-header {
     position: absolute;
     top: 0;
     left: 0;
-    margin: 0;
+    margin-top: 10px;
     padding: 0;
     height: 80px;
     width: 100%;
     z-index: 1;
 }
 
-.nav ul {
+.top-header ul {
     list-style: none;
     cursor: pointer;
     float: right;
     margin-right: 140px;
 }
 
-.nav ul li {
+.top-header ul li {
     list-style: none;
     display: inline-block;
     color: #ffffff;
@@ -58,9 +59,13 @@ body {
     font-weight: 400;
 }
 
-.nav ul li:hover {
+.top-header ul li:hover {
     border-bottom: 3px solid blue;
     transition: all .3s ease;
+}
+
+.top-header ul a {
+    text-decoration: none;
 }
 
 .header {
@@ -187,7 +192,7 @@ input[type="text"]:focus {
     margin: 0;
 }
 
-/* The company logo */
+/* Footer */
 
 .footer-section .footer-left img {
     width: 57px;
